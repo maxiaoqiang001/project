@@ -1,0 +1,206 @@
+.charts_warp {
+  border: 1px solid #0556B0;
+  background: #070836;
+  position: relative;
+  margin: 15px 0;
+}
+
+.charts_title {
+  height: 30px;
+  line-height: 30px;
+  background: #08124f;
+  border-bottom: 1px solid #0556B0;
+  color: #02cae3;
+  padding: 4px 0 0 20px;
+}
+
+.radius {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: #08072f;
+  border-bottom: 1px solid #0556B0;
+  position: absolute;
+}
+
+.leftT {
+  top: -8px;
+  left: -8px;
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+}
+
+.leftB {
+  bottom: -8px;
+  left: -8px;
+  transform: rotate(230deg);
+  -ms-transform: rotate(230deg);
+}
+
+.rightT {
+  top: -8px;
+  right: -8px;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+
+.rightB {
+  bottom: -8px;
+  right: -8px;
+  transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+}
+
+.titleImg {
+  position: absolute;
+  top: -5px;
+  display: table-cell;
+  text-align: center;
+  width: 100%;
+}
+
+.titleImg img {
+  width: 40%;
+  height: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.center{
+  text-align: center;
+}
+
+.green{
+  color: green !important;
+}
+
+.red{
+  color: #9b213f !important;
+}
+
+.gery{
+  color: #666774;
+}
+
+
+/*运动方式start-------------------------*/
+
+.fadeInUp {
+  -webkit-animation: fadeInUp 1s ease .3s 1 both;
+  animation: fadeInUp 1s ease .3s 1 both;
+}
+
+.fadeInLeft {
+  -webkit-animation: fadeInLeft 1s ease .3s 1 both;
+  animation: fadeInLeft 1s ease .3s 1 both;
+}
+
+.fadeInRight {
+  -webkit-animation: fadeInRight 1s ease .3s 1 both;
+  animation: fadeInRight 1s ease .3s 1 both;
+}
+
+.fadeInLeftBig {
+  -webkit-animation: fadeInLeftBig 1s ease .3s 1 both;
+  animation: fadeInLeftBig 1s ease .3s 1 both;
+}
+
+.bounceIn {
+  -webkit-animation: bounceIn 1s ease .3s 1 both;
+  animation: bounceIn 1s ease .3s 1 both;
+}
+
+.bounce {
+  -webkit-animation: bounce 1s ease .3s 1 both;
+  animation: bounce 1s ease .3s 1 both;
+}
+
+.flash {
+  -webkit-animation: flash 1s ease .3s 1 both;
+  animation: flash 1s ease .3s 1 both;
+}
+
+.pulse {
+  -webkit-animation: pulse 1s ease .3s 1 both;
+  animation: pulse 1s ease .3s 1 both;
+}
+
+.rubberBand {
+  -webkit-animation: rubberBand 1s ease .3s 1 both;
+  animation: rubberBand 1s ease .3s 1 both;
+}
+
+.shake {
+  -webkit-animation: shake 1s ease .3s 1 both;
+  animation: shake 1s ease .3s 1 both;
+}
+
+.swing {
+  -webkit-animation: swing 1s ease .3s 1 both;
+  animation: swing 1s ease .3s 1 both;
+}
+
+.tada {
+  -webkit-animation: tada 1s ease .3s 1 both;
+  animation: tada 1s ease .3s 1 both;
+}
+
+.wobble {
+  -webkit-animation: wobble 1s ease .3s 1 both;
+  animation: wobble 1s ease .3s 1 both;
+}
+
+.jello {
+  -webkit-animation: jello 1s ease .3s 1 both;
+  animation: jello 1s ease .3s 1 both;
+}
+
+.flip {
+  -webkit-animation: flip 1s ease .3s 1 both;
+  animation: flip 1s ease .3s 1 both;
+}
+
+.flipInX {
+  -webkit-animation: flipInX 1s ease .3s 1 both;
+  animation: flipInX 1s ease .3s 1 both;
+}
+
+.flipInY {
+  -webkit-animation: flipInY 1s ease .3s 1 both;
+  animation: flipInY 1s ease .3s 1 both;
+}
+
+.lightSpeedIn {
+  -webkit-animation: lightSpeedIn 1s ease .3s 1 both;
+  animation: lightSpeedIn 1s ease .3s 1 both;
+}
+
+.rotateInDownLeft {
+  -webkit-animation: rotateInDownLeft 1s ease .3s 1 both;
+  animation: rotateInDownLeft 1s ease .3s 1 both;
+}
+
+.zoomIn {
+  -webkit-animation: zoomIn 1s ease .3s 1 both;
+  animation: zoomIn 1s ease .3s 1 both;
+}
+
+.zoomInDown {
+  -webkit-animation: zoomInDown 1s ease .3s 1 both;
+  animation: zoomInDown 1s ease .3s 1 both;
+}
+
+.zoomOut {
+  -webkit-animation: zoomOut 1s ease .3s 1 both;
+  animation: zoomOut 1s ease .3s 1 both;
+}
+
+/*运动方式end-----------------------*/
